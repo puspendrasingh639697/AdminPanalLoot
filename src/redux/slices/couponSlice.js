@@ -1,6 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import API from "../../utils/Api";
 
+// import API from "../../utils/Api";
+
 export const fetchAllCoupons = createAsyncThunk(
     "coupon/fetchAllCoupons",
     async (_, { rejectWithValue }) => {
